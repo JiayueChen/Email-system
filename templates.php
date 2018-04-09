@@ -53,7 +53,7 @@ class templates {
 	* URL: templates/get
 	* will return:
 	* json:
-	* {
+	* [
 	* 	{
 	* 		"id": 1,
 	* 		"content": "Hello",
@@ -66,7 +66,7 @@ class templates {
 	* 		"name": "template 2",
 	*		"var": "var1;var2"
 	* 	}
-	* }
+	* ]
 	*/
 
 	public function getMethod() {
