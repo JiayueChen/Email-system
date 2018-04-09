@@ -28,13 +28,13 @@ $handle_obj = new $param_array[0]();
 if (array_key_exists(1, $param_array)) {
 	$method = $param_array[1] . 'Method';
 } else {
-	$method = 'defaultMethod';
+	$method = 'indexMethod';
 }
 
 if (array_key_exists(2, $param_array)) {
-	$handle_obj->$method($param_array[2]);
+	echo $handle_obj->$method($param_array[2]);
 } else {
-	$handle_obj->$method();
+	echo $handle_obj->$method();
 }
 
 
