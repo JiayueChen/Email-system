@@ -10,11 +10,17 @@ class emailList{
 		echo "Using Add Method";
 	}
 
+	/*
+	* @Method otherMethod
+	* @Input int id input id to delete
+	* @Output boolean if trun delete
+	* Detail - Current 
+	*/
 	public function deleteMethod($id) {
 		echo "Using Delete Method" . $id;
 	}
 
-	public function defaultMethod() {
+	public function indexMethod() {
 		echo "Using Default Method";
 	}
 }

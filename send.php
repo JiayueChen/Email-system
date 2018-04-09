@@ -8,7 +8,7 @@ class send {
 		echo "Using Other Method";
 	}
 
-	public function defaultMethod() {
+	public function indexMethod() {
 		echo "Using Default Method";
 	}
 }
